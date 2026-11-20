@@ -1,0 +1,168 @@
+/* ==========================================
+   QUIZ PAGE -- Kawser
+   ========================================== */
+
+/* ===== Quiz page -- Kawser ===== */
+
+/* Header (black) with white Fredoka nav links */
+.quiz-page header {
+	background-color: #0B0B0B;
+}
+
+.quiz-page .navbar {
+	background-color: #0B0B0B;
+}
+
+.quiz-page .navbar-brand {
+	font-family: 'Fredoka', sans-serif;
+	color: #FFFFFF;
+}
+
+.quiz-page .nav-link {
+	font-family: 'Fredoka', sans-serif;
+	color: #FFFFFF;
+}
+
+.quiz-page .nav-link:hover,
+.quiz-page .nav-link.active {
+	color: #A0DB7A;
+}
+
+/* Banner (rose pink feature section) */
+.quiz-page .banner {
+	background-color: #F79AAE;
+	color: #1E1E1E;
+	text-align: center;
+	padding: 40px 20px;
+}
+
+.quiz-page .banner h2 {
+	font-family: 'Fredoka', sans-serif;
+	color: #1E1E1E;
+}
+
+.quiz-page .banner p {
+	font-family: 'Lora', serif;
+	color: #1E1E1E;
+	margin-bottom: 0;
+}
+
+/* Quiz card (pale green) */
+.quiz-page .quiz-box {
+	background-color: #EFFCD9;
+	max-width: 700px;
+	margin: 40px auto;
+	padding: 30px;
+	border-radius: 16px;
+}
+
+.quiz-page .quiz-box p,
+.quiz-page .quiz-box label {
+	font-family: 'Lora', serif;
+	color: #1E1E1E;
+}
+
+.quiz-page .quiz-box h5 {
+	font-family: 'Fredoka', sans-serif;
+	color: #1E1E1E;
+	margin-bottom: 20px;
+}
+
+/* Question image placeholder */
+.quiz-page .question-image {
+	background-color: #FFFFFF;
+	border: 2px dashed #A0DB7A;
+	border-radius: 12px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+/* Answer options (light pink list rows) */
+.quiz-page .option {
+	background-color: #FBCED7;
+	font-family: 'Lora', serif;
+	color: #1E1E1E;
+	padding: 12px 16px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.quiz-page .option:hover {
+	background-color: #F79AAE;
+}
+
+.quiz-page .option input {
+	margin-right: 10px;
+	accent-color: #0B0B0B;
+}
+
+/* Button (green) */
+.quiz-page .quiz-button {
+	background-color: #A0DB7A;
+	font-family: 'Lora', serif;
+	color: #1E1E1E;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 28px;
+	margin-top: 10px;
+}
+
+.quiz-page .quiz-button:hover {
+	background-color: #8CCB63;
+}
+
+/* Footer (black) */
+.quiz-page footer {
+	background-color: #0B0B0B;
+	font-family: 'Lora', serif;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 20px;
+}
+
+.quiz-page footer p {
+	font-family: 'Lora', serif;
+	color: #FFFFFF;
+	margin: 4px 0;
+}
+/* Navbar alignment */
+
+.quiz-page .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz-page .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.quiz-page .nav-link {
+    padding: 10px 15px;
+}
+/* Make all navigation links white */
+
+.quiz-page .navbar-nav .nav-link {
+    color: #FFFFFF !important;
+}
+
+/* Hover colour */
+.quiz-page .navbar-nav .nav-link:hover {
+    color: #A0DB7A !important;
+}
+
+/* Active Quiz link */
+.quiz-page .navbar-nav .nav-link.active {
+    color: #A0DB7A !important;
+}
+
+/* ========== END QUIZ PAGE -- Kawser ========== */
+.site-logo {
+	height: 50px;
+}
